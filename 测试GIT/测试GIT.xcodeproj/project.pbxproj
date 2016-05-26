@@ -15,6 +15,7 @@
 		345AB6691CF6F37700847658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345AB6671CF6F37700847658 /* LaunchScreen.storyboard */; };
 		345AB6741CF6F37700847658 /* __GITTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 345AB6731CF6F37700847658 /* __GITTests.m */; };
 		345AB67F1CF6F37700847658 /* __GITUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 345AB67E1CF6F37700847658 /* __GITUITests.m */; };
+		34D33A211CF6FF1C00FAEC07 /* NewCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D33A201CF6FF1C00FAEC07 /* NewCreateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		345AB67A1CF6F37700847658 /* 测试GITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试GITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		345AB67E1CF6F37700847658 /* __GITUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __GITUITests.m; sourceTree = "<group>"; };
 		345AB6801CF6F37700847658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D33A1F1CF6FF1C00FAEC07 /* NewCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCreateViewController.h; sourceTree = "<group>"; };
+		34D33A201CF6FF1C00FAEC07 /* NewCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCreateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				345AB65D1CF6F37700847658 /* AppDelegate.m */,
 				345AB65F1CF6F37700847658 /* ViewController.h */,
 				345AB6601CF6F37700847658 /* ViewController.m */,
+				34D33A1F1CF6FF1C00FAEC07 /* NewCreateViewController.h */,
+				34D33A201CF6FF1C00FAEC07 /* NewCreateViewController.m */,
 				345AB6621CF6F37700847658 /* Main.storyboard */,
 				345AB6651CF6F37700847658 /* Assets.xcassets */,
 				345AB6671CF6F37700847658 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				345AB6611CF6F37700847658 /* ViewController.m in Sources */,
+				34D33A211CF6FF1C00FAEC07 /* NewCreateViewController.m in Sources */,
 				345AB65E1CF6F37700847658 /* AppDelegate.m in Sources */,
 				345AB65B1CF6F37700847658 /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				345AB6851CF6F37700847658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		345AB6861CF6F37700847658 /* Build configuration list for PBXNativeTarget "测试GITTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				345AB6881CF6F37700847658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		345AB6891CF6F37700847658 /* Build configuration list for PBXNativeTarget "测试GITUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				345AB68B1CF6F37700847658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
