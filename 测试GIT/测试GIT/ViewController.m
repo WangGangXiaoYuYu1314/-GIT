@@ -24,6 +24,9 @@
     
     NSLog(@"https://github.com/WangGangXiaoYuYu1314/-GIT.git");
     
+    
+    NSLog(@"天黑了吗");
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
