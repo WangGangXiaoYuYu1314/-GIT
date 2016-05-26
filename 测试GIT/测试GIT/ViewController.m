@@ -18,6 +18,11 @@
     [super viewDidLoad];
     
     NSLog(@"https://github.com/WangGangXiaoYuYu1314/-GIT.git");
+    NSLog(@"https://github.com/WangGangXiaoYuYu1314/-GIT.git");
+    NSLog(@"https://github.com/WangGangXiaoYuYu1314/-GIT.git");
+    NSLog(@"https://github.com/WangGangXiaoYuYu1314/-GIT.git");
+    
+    NSLog(@"https://github.com/WangGangXiaoYuYu1314/-GIT.git");
     
     // Do any additional setup after loading the view, typically from a nib.
 }
